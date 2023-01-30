@@ -25,25 +25,12 @@ body {
   }
   
   td {
-    border: 1px solid #333;
     text-align: center;
     vertical-align: middle;
     font-size: 48px;
     font-weight: bold;
   }
   
-  button {
-    background-color: #3897f0;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: 20px; /* Change this line */
-    margin-bottom: 20px; /* Change this line */
-  }
   
   .winner {
     font-size: 24px;
@@ -76,7 +63,6 @@ body {
     background-repeat: no-repeat;
     height: 100%;
   }
-  
   td.cell {
     width: 120px;
     height: 120px;
@@ -86,3 +72,32 @@ body {
     border: 10px solid #ECF9FF; /* Change this line */
     border-radius: 20px; /* Add this line */
   }
+ td.cell-0 {
+  border-top: none;
+  border-left: none;
+}
+td.cell-1 {
+  border-top: none;
+}
+td.cell-2 {
+  border-top: none;
+  border-right: none;
+}
+td.cell-3 {
+  border-left: none;
+}
+
+td.cell-5 {
+  border-right: none;
+}
+td.cell-6 {
+  border-bottom: none;
+  border-left: none;
+}
+td.cell-7 {
+  border-bottom: none;
+}
+td.cell-8 {
+  border-bottom: none;
+  border-right: none;
+}
