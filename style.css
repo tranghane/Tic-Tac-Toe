@@ -73,6 +73,8 @@ body {
     border: 10px solid #ECF9FF; /* Change this line */
     border-radius: 20px; /* Add this line */
   }
+
+/*Make it so that the board is not so boxy*/
  td.cell-0 {
   border-top: none;
   border-left: none;
